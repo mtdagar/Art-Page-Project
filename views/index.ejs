@@ -1,0 +1,30 @@
+<% include ./partials/header %>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Art Page Project</h1>
+        <p class="lead">Exquisite artworks gifted by the world’s most generous community of artists.</p>
+      </div>
+    </div>
+    
+    
+<div class="container">    
+    <div class="row">
+        <% posts.forEach(function(post){ %>
+            <div class="col-md-4 col-sm-6 top-buffer">
+                <div class="img-thumbnail">
+                    <a href="/posts/<%=post._id%>">
+                        <img src="<%=post.image%>" class="img-fluid" >
+                    </a>
+                </div>
+            </div>
+        <% }) %>    
+    </div>
+</div>    
+
+    
+
+
+
+
+<% include ./partials/footer %>

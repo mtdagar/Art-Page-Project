@@ -1,0 +1,17 @@
+.top-buffer { margin-top:30px; }
+
+.heading{ 
+    padding: 30px;
+    font-size: 50px;
+}
+
+.heading-center{ 
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.form-center{
+    width: 30%;
+    margin: 0 auto;
+}
